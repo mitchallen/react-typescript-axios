@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-102",
+  "name": "react-typescript-axios",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,8 @@
     "@types/node": "10.12.15",
     "@types/react": "16.7.17",
     "@types/react-dom": "16.0.11",
+    "@types/request-promise": "^4.1.42",
+    "axios": "^0.18.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1",

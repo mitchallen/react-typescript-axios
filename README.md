@@ -1,3 +1,32 @@
+# react-typescript-axios
+
+A React / TypeScript demo that uses Axios to query another server.
+
+* * *
+
+Created using:
+
+```
+sudo npm install -g create-react-app
+
+npx create-react-app my-typescript-app --typescript
+```
+## Testing Axios
+
+Create a thing-server container and start it on port 1234.
+
+```
+docker run -p 1234:3000 --name thing-server mitchallen/thing-server
+```
+
+If the container already exists (docker run gives you an error), just restart it.
+
+```
+docker start thing-server
+```
+
+* * *
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
